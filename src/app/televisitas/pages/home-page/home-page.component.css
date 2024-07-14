@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+}
+
+.dormitory {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid purple;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+
+.moduletitle {
+  margin: 10px;
+}
+
+.terminal {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+.terminalEmpty {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}

@@ -1,0 +1,23 @@
+
+<div class="container">
+
+  <div class="dormitory">
+    <h2>Dormitorio A</h2>
+
+    <div *ngFor="let module of locations" class="module">
+      <div class="moduletitle">
+        <span>{{module.dormitory}} - {{module.module}} </span>
+      </div>
+      <div class="terminal" *ngIf="module.terminal">
+        <span>{{module.terminal?.terminalNumber}}</span>
+      </div>
+      <div class="terminalEmpty" *ngIf="!module.terminal">
+        <span>Empty</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
